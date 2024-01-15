@@ -1,0 +1,4 @@
+C:/Data/CLion/Datastructuren/MiniProject/LSystemInterpreter/cmake-build-debug/CMakeFiles/LSystemLib.dir
+C:/Data/CLion/Datastructuren/MiniProject/LSystemInterpreter/cmake-build-debug/CMakeFiles/TestSuite.dir
+C:/Data/CLion/Datastructuren/MiniProject/LSystemInterpreter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Data/CLion/Datastructuren/MiniProject/LSystemInterpreter/cmake-build-debug/CMakeFiles/rebuild_cache.dir

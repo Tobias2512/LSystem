@@ -1,0 +1,53 @@
+SCHOOL PROJECT 3-DATASTRUCTURES
+
+L-System Tree Drawer and Flappy Bird with L-System Trees
+
+--- OVERVIEW ---
+
+This project is a combination of two components:
+                                     - a L-System tree generator implemented in C++ (LSystemInterpreter).
+                                     - a Python script for drawing trees and creating a Flappy Bird game using L-System trees (LSystemDrawer).
+
+--- L-SYSTEM TREE GENERATOR (C++) ---
+
+The C++ code i wrote you can find under the LSystemInterpreter folder.
+
+You can find the L-System data structure in the Include and Source files.
+
+In the `MainTest.cpp` file, L-Systems are written to a text file and the LSystem is tested for correct implementation.
+Each L-System represents a set of rules that define the growth of a tree.
+The generated L-Systems are then used by the Python script to draw trees.
+
+--- L-SYSTEM TREE DRAWER (Python) ---
+
+The Python code i wrote you can find under the LSystemDrawer folder.
+
+In the conversion folder you can find the codes i needed to convert files into .gif files so i can use them with turtle
+Here i also drew a LSystemTree using turtle and then converted that drawing into a .gif file.
+
+In the flappybird folder you can find all the code that's relevant to the flappybird.py game
+
+In the LSystemTurtle.py file you can either draw an evolution of a tree, or draw a collage of trees and plants.
+
+The 'drawEvolutionTree(filename, distance, angle)' function you can use to draw the different stages of a tree.
+The 'drawCollageTrees(...)' function you can use to draw a collage of trees.
+It's important to know that these functions only work for my particular trees and I made it nice by adding some birds and a sun.
+So if you want to make your own collage, you will have to change some things in the LSystemTurtle.py file.
+
+--- USAGE ---
+
+To use my project you first have to run the TEST_CASES from the LSYSTEMLIB library in c++ so the .txt files get written into.
+You will have to change the directories to your own wanted directories.
+
+When the .txt are written you can use the python terminal to run the different codes.
+
+For the flappybird game you simply have to write: python flappybird.py
+
+But if you want to draw a collage of trees you will have to put the 'drawEvolutionTree' file in comments.
+If you want to draw the evolution of a tree you will have to put the 'drawCollageTrees' file in comments.
+
+After this you can run the code by writing: 'python LSystemTurtle.py' in the terminal
+
+--- INFO ---
+
+If you have any questions, you can always contact me at: hagenaarstobias@gmail.com
